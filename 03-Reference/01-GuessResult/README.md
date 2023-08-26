@@ -8,7 +8,7 @@ const product2 = product1;
 product2.name = 'Pepsi';
 product2.price = 19;
 
-console.log(product1); // *
-console.log(product2); // **
-console.log(product1 === product2); // ***
+console.log(product1); // * name: 'Pepsi', price: 19, size: '500ml'
+console.log(product2); // ** name: 'Pepsi', price: 19, size: '500ml'
+console.log(product1 === product2); // *** true
 ```
